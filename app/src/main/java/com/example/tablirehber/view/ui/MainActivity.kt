@@ -11,27 +11,7 @@ import com.example.tablirehber.databinding.ActivityMainBinding
 import com.example.tablirehber.databinding.CustomTabBinding
 import com.google.android.material.tabs.TabLayoutMediator
 
-/*
-Tablı rehber listesi
-Uygulamada 3 farklı tab olacak. Uygulama geliştirilirken fragment ve viewPager yapısı kullanılacak.
 
-Katmanlı mimari yapısına dikkat edilerek geliştirme yapılacak.
-
-İlk tab :
-
-Burada hızlı arama listesi bulunacak
-
-Hızlı aramadaki kişilerin listesi olacak. Kişilerin ad soyad ve telefon numarası görünecek. Liste elemanına basıldığında toast ile arama yapılıyor bilgisi gösterilecek.
-
-İkinci tab:
-
-Burada tüm kişi listesi olacak. Liste elemanına basıldığında arama yapılıyor toast mesajı gösterilecek. Elemana uzun basıldığında alert çıkıp hızlı aramaya mı kara listeye mi eklemek istediği sorulacak. Hızlı aramaya eklerse bu kişi hızlı aramada görünürken aynı zamanda tüm listede yanında bir yıldız resmi ile görünecek.
-Kara listeye eklenenler ise tüm kişiler listesinde görünmeyecek.
-
-üçüncü tab:
-
-Bu ekranda ise kara listedeki kişiler listelenecek ve arama yapılamayacak. Listeye uzun basıldığında kara listeden çıkarılsın mı uyarısı çıkarılacak. Evet derse kara listeden çıkarılacak.
-*/
 class MainActivity : AppCompatActivity() {
     lateinit var binding : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
